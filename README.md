@@ -19,12 +19,43 @@ Output:
 The output for each rover should be its final co-ordinates and heading.
 
 Plateau max X and Y, Starting coordinates, direction and path for two rovers:  
+
+
 5 5  
+
 1 2 N  
 LMLMLMLMM  
+
 3 3 E  
 MMRMMRMRRM  
 
 Output and new coordinates:
+
 1 3 N
+
 5 1 E
+
+
+
+
+Input      |  Output
+----------------------
+5 5 
+1 2 N  
+LMLMLMLMM  |  1 3 N
+
+5 5
+3 3 E  
+MMRMMRMRRM |  5 1 E
+
+**Our approach:**
+
+Started planning by diagramming the moves of the rover to understand the problem. 
+
+
+
+
+
+
+
+
