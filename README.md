@@ -41,6 +41,12 @@ Output and new coordinates:
 Input      |  Output
 ----------------------
 5 5 
+4 1 N      |  4 2 N 
+M
+
+
+
+5 5 
 1 2 N  
 LMLMLMLMM  |  1 3 N
 
