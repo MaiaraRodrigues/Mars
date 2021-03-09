@@ -44,6 +44,10 @@ Input      |  Output
 4 1 N      |  4 2 N 
 M
 
+5 5
+4 1 N      | 3 2 W
+MLM 
+
 
 
 5 5 
