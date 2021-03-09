@@ -15,7 +15,7 @@ class Rover
       elsif letter == "L"
         left_directions(starting_coordinates)
       else letter == "R"
-        starting_coordinates[2] = RIGHT_MOVES[starting_coordinates[2]]
+        right_directions(starting_coordinates)
       end 
     end 
     @current_coordinates = starting_coordinates
@@ -38,13 +38,9 @@ class Rover
   def left_directions(starting_coordinates)
     starting_coordinates[2] = LEFT_MOVES[starting_coordinates[2]]
   end 
-end 
-#  4 is x 
-#  1 is y 
-#  n is the direction 
 
-# if the heading is north is +1 
-# north +1 on y 
-# south -1 on y 
-# east +1 on x
-# west -1 on x
+  def right_directions(starting_coordinates)
+    starting_coordinates[2] = RIGHT_MOVES[starting_coordinates[2]]
+  end 
+end 
+

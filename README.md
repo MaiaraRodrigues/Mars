@@ -61,6 +61,15 @@ MMRMMRMRRM |  5 1 E
 
 Started planning by diagramming the moves of the rover to understand the problem. 
 
+#  4 is x 
+#  1 is y 
+#  n is the direction 
+
+# if the heading is north is +1 
+# north +1 on y 
+# south -1 on y 
+# east +1 on x
+# west -1 on x
 
 
 
