@@ -18,6 +18,15 @@ describe Rover do
       expect(rover.current_coordinates).to eq [3, 2, "W"]
     end
 
+    it "moves five squares and takes foour left turns" do
+      rover.move([5, 5], [1, 2, "N"], "LMLMLMLMM")
+      expect(rover.current_coordinates).to eq [1, 3, "N"]
+    end 
+
+    it "moves five squares and takes foour left turns" do
+      rover.move([5, 5], [3, 3, "E"], "MMRMMRMRRM")
+      expect(rover.current_coordinates).to eq [5, 1, "E"]
+    end 
 
   end 
 end 
